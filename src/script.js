@@ -34,7 +34,7 @@ const contactBook = {
 function showContacts(contactBook, groupToShow) { // Rör ej denna kod
 
 
-for (const contact of contactBook.contacts) {
+for (contact of contactBook.contacts) {
   if (contact.group === groupToShow) { // Loopar igenom alla kontakter och jämför grupp
     return `Work contact: ${contact.name} Phone number: ${contact.phone}` // här ska sträng med namn och tekefonnummer visas i form av string interpolation
   }  
